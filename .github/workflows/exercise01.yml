@@ -12,6 +12,11 @@ on:
         - Python
         - JavaScript
         - Go
+      nombre:
+        description: 'Tu nombre'
+        required: true
+        default: Juan
+        type: string  
 jobs:
   llamado-manual:
     runs-on: ubuntu-latest
